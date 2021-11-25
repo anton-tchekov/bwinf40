@@ -5,7 +5,7 @@
 
 Bearbeitete Aufgaben:
 
-* 1. Schiebeparkplatz
-* 2. Vollgeladen
-* 5. Marktwaage
+*  1. Schiebeparkplatz
+*  2. Vollgeladen
+*  5. Marktwaage
 
