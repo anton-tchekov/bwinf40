@@ -1,7 +1,8 @@
 # bwinf40
-40. Bundeswettbewerb Informatik
 
-## 1. Runde
+40\. Bundeswettbewerb Informatik
+
+## 1\. Runde
 
 Bearbeitete Aufgaben:
 
