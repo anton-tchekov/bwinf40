@@ -58,14 +58,19 @@ static void _keys_shuffle(uint128_t *keys, int count)
 
 int main(void)
 {
-	uint128_t keys[111];
+	uint128_t keys[111], xor = 0;
 	int i;
 	for(i = 0; i < 110; ++i)
 	{
 		keys[i] = _random_key();
 	}
 
-	keys[110] = _xor_keys(keys, 10);
+	for(i = 0; i < 10; ++i)
+	{
+		xor ^= keys[i];
+	}
+
+	keys[110] = xor;
 
 	_keys_shuffle(keys, 111);
 
